@@ -1,0 +1,7 @@
+{
+  "name": "polymer-todo-list",
+  "short_name": "polymer-todo-list",
+  "description": "Aplicação Todo List para testar o polymer",
+  "start_url": "/",
+  "display": "standalone"
+}
