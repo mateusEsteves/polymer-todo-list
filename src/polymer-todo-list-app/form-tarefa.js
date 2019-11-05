@@ -29,7 +29,7 @@ class FormTarefa extends PolymerElement{
 
     //método que adiciona a tarefa no array
     _adicionarTarefa(){
-        // deve se osar os métodos do Polymer, para que todas as mudanças sejam replicadas na tela
+        // deve se usar os métodos do Polymer, para que todas as mudanças sejam replicadas na tela
         this.push('tarefas', this.get('novaTarefa'));
         // após adicionar a tarefa na lista, substitui a tarefa temporaria por uma vazia
         this.set('novaTarefa', new Tarefa());
